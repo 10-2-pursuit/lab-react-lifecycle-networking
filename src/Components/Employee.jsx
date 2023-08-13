@@ -4,12 +4,9 @@ import { useState, useEffect } from 'react';
 
 const URL = 'https://one0-2-vet-api.onrender.com'
 
-
-
 export const Employee = () => {
   const [employees, setEmployees] = useState([]);
   
-
   useEffect(()=> fetchSomething(),[]);
 
   function fetchSomething(){
@@ -22,7 +19,6 @@ export const Employee = () => {
 
   return (
     <>
-    {/*<article className="employee">*/}
       {employees.map((elem)=>{
         return(
           <article className="employee">
@@ -32,12 +28,6 @@ export const Employee = () => {
           </article>
         )
       })}
-      {/*
-      <h3>Staff Member Name</h3>
-      <h4>Staff Member Title</h4>
-      <button>Show Pets</button>
-      <PetList />*/}
-    {/*</article>*/}
     </>
   );
 };
