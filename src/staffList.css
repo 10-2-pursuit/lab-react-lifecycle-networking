@@ -1,0 +1,27 @@
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+
+  .staff-card {
+    border: 1px solid #007bff;
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 220px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #f0f0f0; 
+    transition: transform 0.2s;
+  }
+  
+  .staff-card:hover {
+    transform: translateY(-6px); 
+  }
+  .btn {
+    border: solid rgb(25, 25, 24);
+    height: 40px;
+    background-color: gold;
+  }
